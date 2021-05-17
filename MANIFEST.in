@@ -1,0 +1,7 @@
+include dash_recorder/dash_recorder.min.js
+include dash_recorder/dash_recorder.min.js.map
+include dash_recorder/metadata.json
+include dash_recorder/package-info.json
+include README.md
+include LICENSE
+include package.json
