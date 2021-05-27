@@ -126,10 +126,10 @@ export default class DashRecorder extends Component {
     render() {
         console.log(this.props)
         return (
-            <div id={this.props.id}>
-                <button margin='10' onClick={this.record.bind(this)}> record </button>
-                <button margin='10' onClick={this.stop.bind(this)}> stop </button>
-                <button margin='10' onClick={this.play.bind(this)}> play </button>
+            <div id={this.props.id} style={{display: 'flex', alignItems: 'center'}}>
+                <button onClick={this.record.bind(this)}> record </button>
+                <button onClick={this.stop.bind(this)}> stop </button>
+                <button onClick={this.play.bind(this)}> play </button>
                 <audio controls autoPlay></audio>
             </div>
         );
